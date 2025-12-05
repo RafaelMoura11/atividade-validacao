@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest",
+    "test:functional": "node tests/functional.test.js"
+  },
+  "devDependencies": {
+    "chromedriver": "^143.0.0",
+    "jest": "^30.2.0",
+    "selenium-webdriver": "^4.38.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  }
+}
