@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:unit": "jest",
-    "test:functional": "node tests/functional.test.js"
+    "test:functional": "node tests/functional.selenium.mjs"
   },
   "devDependencies": {
     "chromedriver": "^143.0.0",
